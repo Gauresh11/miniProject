@@ -532,7 +532,7 @@ form:hover .fa{
     list-style: none;
     margin-right: -90px;
     padding-right: -20px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 #first{
@@ -612,7 +612,7 @@ form:hover .fa{
 
 #features .options h6{
     display: inline-block;
-    padding: 11px 10px 8px 10px;
+    padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
     color: #088178;
@@ -622,7 +622,7 @@ form:hover .fa{
 
 #features .options .bike{
     display: inline-block;
-    padding: 11px 10px 8px 10px;
+    padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
     color: #088178;
