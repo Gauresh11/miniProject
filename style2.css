@@ -531,7 +531,7 @@ form:hover .fa{
     align-items: center;
     justify-content: center;
     list-style: none;
-    margin-right: -90px;
+    margin-right: -50px;
     padding-right: -20px;
     margin-top: 50px;
 }
@@ -809,4 +809,47 @@ footer h2{
 	to {
 		background-position: 200% center;
 	}
+}
+
+.active1{
+    /* margin-left: 10px; */
+    margin-right: -70px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+#navbar li a.active1{
+    color:#088178;
+}
+
+#navbar li a.active1::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.but{
+    width: 35px;
+    height:35px;
+    background: #088178;
+    border: 2px solid #088178;
+    margin-top: -90px;
+    margin-left: 21px;
+    margin-right: -80px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-radius: 50%;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.but:hover{
+    color: #000;
 }

@@ -84,6 +84,7 @@ ul li a:hover{
     background: transparent;
     border: 1px solid #ff7200;
     margin-top: 13px;
+    margin-left: -30px;
     color: #fff;
     border-right: none;
     font-size: 16px;
@@ -417,3 +418,21 @@ ul li a:hover{
   .menu__item li a:hover {
     background-color: #CFD8DC;
   }
+.but{
+    width: 35px;
+    height:35px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: -83px;
+    margin-left: 21px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-radius: 50%;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.but:hover{
+    color: #000;
+}
