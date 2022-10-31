@@ -522,6 +522,15 @@ figure.snip1321 img {
   vertical-align: top;
   
 }
+
+
+figure.snip1321 a{
+  text-decoration: none;
+  color: #000;
+  margin-top: -20px;
+  
+}
+
 figure.snip1321 figcaption {
   top: 50%;
   left: 20px;
@@ -568,7 +577,7 @@ figure.snip1321 a {
   top: 0;
   bottom: 0;
   position: absolute;
-  z-index: 1;
+  z-index: 0;
 }
 figure.snip1321:hover figcaption,
 figure.snip1321.hover figcaption {
